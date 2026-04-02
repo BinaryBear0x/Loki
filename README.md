@@ -1,30 +1,21 @@
- deneme
- 
- 
- Loki  ıp changer V0.1
+# Loki
 
+Loki, Tor ağı üzerinden alınan çıkış IP adresini belirli aralıklarla yenilemeyi deneyen bir Python betiğidir.
 
+## Ne Yapar
 
-how to install this tools :
+- Tor servisini başlatır
+- SOCKS5 proxy üzerinden mevcut dış IP'yi kontrol eder
+- belirlenen aralıklarla Tor devresini yeniler
 
-  sudo apt-get install tor
-  pip3 install requests[socks]
-  
+## Teknolojiler
 
-1: git clone https://github.com/heimdallrRover/Loki.git
+- Python
+- Tor
+- `requests`
 
-2 : cd Loki
+## Notlar
 
-3 : python3 install.py
-
-4 : Run
-  
-5 : type time to change IP
-
-6: type how many time to change your ip 
-
-*[0 to infinte IP change]
-
-6 : go to your browser / pc  change sock proxy to 127.0.0.1:9050
-
+- Linux ortamı ve Tor servisi varsayımıyla yazılmıştır
+- Eğitim ve deney amaçlı bir betiktir
 
